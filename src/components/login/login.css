@@ -1,0 +1,79 @@
+
+    .Login {
+      display: flex;
+      width: calc(85vw - 128.48px);     
+      text-align: center;
+      padding-top: 60px;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+
+    label
+    {font-size: 30px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      width: 225px;    
+    }
+
+    .button {
+      width: 120px;
+    }
+
+  
+    .grid {
+      display: flex;
+      justify-content: space-around;
+      height: 110px;
+    }
+
+    .gridReg {
+      display: flex;
+      justify-content: space-around;
+      height: 200px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      height: 80px;
+    }
+
+    .inputs {
+      margin: 30px 0 10px 0;
+    }
+
+  @media (max-width: 670px) {
+    .App {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .Login {
+    display: flex;
+    width: auto;
+    text-align: center;
+   
+    margin: 60px 0;
+    }
+
+    h3 {
+      font-size: 0px;
+    }
+
+    .nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-right: 0px;
+
+    }
+
+    a {
+      margin: 1px 5px 1px 5px;
+    }
+    
+}
