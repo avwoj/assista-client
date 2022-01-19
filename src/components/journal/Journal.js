@@ -212,9 +212,9 @@ const Journal = (prop) => {
           >
             Submit
           </Button>
-          <Button onClick={(e) => dispatch(getJournal(user?.result?._id))}>
+          {/* <Button onClick={(e) => dispatch(getJournal(user?.result?._id))}>
             Reset
-          </Button>
+          </Button> */}
 
           {journal &&
             journal.map((entry, index) => {
