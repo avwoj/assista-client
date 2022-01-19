@@ -2,6 +2,11 @@
     margin: 1px;
 }
 
+#calDiv {
+     height: 100vh;
+     width: calc(100% - 295px);
+     margin: 0 0 5px 3px;
+ }
 
 @media (max-width: 670px) { 
     .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
@@ -34,8 +39,4 @@
 
 }
 
- #calDiv {
-     height: 100vh;
-     width: 100%;
-     margin: 0 3px 5px 0;
- }
+ 
