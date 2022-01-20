@@ -192,7 +192,7 @@ const Journal = (prop) => {
             handleSubmit();
           }}
         >
-          <h2>Gratitude Journal</h2>
+          <h2>Journal</h2>
           <textarea
             value={value}
             className={classes.textArea}
@@ -203,7 +203,7 @@ const Journal = (prop) => {
             }}
             cols="30"
             rows="14"
-            placeholder="List three things you're grateful for:"
+            placeholder="Say what's on your mind..."
           />
           <Button
             className={classes.submitBtn}
