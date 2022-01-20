@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
-import { ProSidebar, Menu, MenuItem, SidebarHeader } from "react-pro-sidebar";
+import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarFooter } from "react-pro-sidebar";
 import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -73,6 +73,8 @@ function Navigation() {
               Log Out
             </Button>
           )}
+          <SidebarFooter>
+          </SidebarFooter>
         </ProSidebar>
       </div>
       {/* )} */}

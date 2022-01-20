@@ -9,6 +9,9 @@
  }
 
 @media (max-width: 670px) { 
+    .pro-sidebar-header {
+        height: 0;
+    }
     .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
         display: flex;
         width: 100vw;
@@ -40,6 +43,20 @@
         width: auto;
     }
 
+    .pro-sidebar-footer {
+        height: 2px;
+    }
+
+    ul {
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+    }
+
+    .journalTitle {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
 
 }
 

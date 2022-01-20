@@ -192,7 +192,7 @@ const Journal = (prop) => {
             handleSubmit();
           }}
         >
-          <h2>Journal</h2>
+          <h2 className="journalTitle">Journal</h2>
           <textarea
             value={value}
             className={classes.textArea}
